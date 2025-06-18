@@ -1,0 +1,1872 @@
+pitch=48
+u: ins=tempo, velo=520
+T: ins=tempo, velo=570
+f: ins=tempo, velo=580
+F: ins=tempo, velo=590
+_: ins=tempo, velo*=1
+
+4: ins=16, chan=1, type=organ, velo={90-127}, duration=4
+3: ins=16, chan=1, type=organ, velo={90-127}, duration=3, start+={0-0.2}
+2: ins=16, chan=1, type=organ, velo={90-127}, duration=2, start+={0-0.2}
+1: ins=16, chan=1, type=organ, velo={120-127}, duration=0.95, start+={0-0.2}
+h: ins=16, chan=1, type=organ, velo={120-127}, duration=0.6, start+=0.5
+
+R: ins=4, chan=5, type=gui, velo=60, duration=8
+E: ins=4, chan=5, type=gui, velo=80, duration=3
+W: ins=4, chan=5, type=gui, velo=60, duration=2
+Q: ins=4, chan=5, type=gui, velo=60, duration=1
+
+Y: type=percussion, instr=49,  velo={90-100}
+M: type=percussion, instr=57,  velo={90-100}
+y: type=percussion, instr=51,  velo={50-100}, durat={0.1-0.4}
+m: type=percussion, instr=59,  velo={50-100}, durat={0.1-0.4}
+
+Low floor Tom
+9: ins=41, type=percussion, velo={10-100}
+
+High floor Tom
+8: ins=43, type=percussion, velo={10-100}
+
+Low Tom
+7: ins=45, type=percussion, velo={10-100}
+
+Low-Mid Tom
+6: ins=47, type=percussion, velo={10-100}
+
+Hi-Mid Tom
+5: ins=48, type=percussion, velo={10-100}
+
+Cow  Bell
+r: ins=56, type=percussion, velo={100-115}, duration=1.2
+
+Side Stick
+/: ins=37, type=percussion, velo={50-85}
+
+BASS
+B: type=melo, chan=3, instr=37, velo={40-60}, dur={1.6-3}
+N: type=melo, chan=4, instr=33, velo={40-60}, dur={0.1-0.5}
+
++---+---+---+---+---+---+---+---
+T_       
+  b 1            b  1  
+        1 4             1 4
+    1               1
+        1 4             1 4
+
+
+2     2   #   2 # 2 # 2
+
+
+                                 
+ 
+ 
+                           
+                     
+                    b R b   E
+                   
+                    Q     Q   
++END
+
++---+---+---+---+---+---+---+---
+         
+  b 1            b  1  
+        1               1 4
+                    1
+        1 4             1 4
+
+
+2     2   B B 2 N 2   2 B B B B
+  b B                   
+   
+B                  
+
+
+                           
+R                    
+                    b E b   E
+           
+                    Q     Q   
+
+
+
+      W E     W R
++END
+
++---+---+---+---+---+---+---+---
+         
+  b 1            b  1  
+        1 4             1 4
+    1               1
+        1 4             1 4
+
+
+2     2   N B 2 B 2 B 2         
+                         b  B  
+                            
+                        B 
+                        
+
+                           
+R          B         
+                    b E b   E
+           
+                    Q     Q   
+
+                  W
+
+      W E     W R
++END
+
++---+---+---+---+---+---+---+---
+         
+  b 1            b     
+        1                 4
+    1               1
+        1 4             1  
+
+       f 
+2 B B 2 B B B   B   B 2    
+                           bB
+
+                        B
+
+
+                           
+W                    
+                    b E b   E
+           
+                    Q     Q   
+
+                  W
+
+      W E     W R
++END
+
++---+---+---+---+---+---+---+---
+         
+  b 1            b  1  
+        1 4             1 4
+    1               1
+        1 4             1 4
+
+
+2 B B 2 B B B 2 B 2 B 2 
+                      b B   B
+
+
+
+
+                           
+W                                 
+                    b E b   E
+           
+                    Q     Q   
+
+
+
+      W E     W R
++END
+
++---+---+---+---+---+---+---+---
+         
+  b 1            b  1  
+          1                 
+    1                
+        1               1 4
+
+
+2     2           2   2         
+                              
+        # B
+       # N               
+      # B
+     # B
+    # B                    
+R                    
+                    b E b   E
+           
+     B          B   Q     Q   
+
+
+
+    B W E     W R
++END
+
++---+---+---+---+---+---+---+---
+         
+  b 1            b  1  
+        1 4             1 4
+    1               1
+        1 4             1 4
+
+F_ 
+2 B B 2 B B B 2 B 2 B 2     B
+                      b B    
+                          B
+                        B
+
+                       B
+                      B    
+W                                 
+                    b E b   E
+           
+                    Q     Q   
+          y  m
+
+
+      W E     W R
++END
+
+PERKUSJA ZACZYNA
+
++---+---+---+---+---+---+---+---
+         
+  b 1            b  1  
+        1 4             1 4
+    1               1
+        1 4             1 4
+
+c   c   C   c   O     C     C                           
+2 B B 2 B B B 2 B 2 B 2    
+                           bB
+Y
+M                       B
+ ym y y m m y y m yym m m m y m
+
+                           
+W                    
+                    b E b   E
+           
+                    Q     Q   
+
+                  W
+
+      W E     W R
++END
+
++---+---+---+---+---+---+---+---
+         
+  b 1            b  1  
+        1 4             1 4
+    1               1
+        1 4             1 4
+
+c   c   C   c   O     C     C                           
+2 B B 2 B B B 2 B 2 B 2    
+                           bB
+ 
+                        B
+m yym y m y m m y ymm m y m y m
+
+                           
+W                    
+                    b E b   E
+           
+                    Q     Q   
+
+                  W
+
+      W E     W R
++END
+
++---+---+---+---+---+---+---+---
+         
+  b 1            b  1  
+        1 4             1 4
+    1               1
+        1 4             1 4
+
+c   c   C   c   O     C     C                           
+2   B 2     B 2 N 2 B 2    
+                           bB
+ 
+                        B
+ ym y y m m y y m yym m m m y m
+
+                           
+W                    
+                    b E b   E
+           
+                    Q     Q   
+
+                  W
+
+      W E     W R
++END
+
++---+---+---+---+---+---+---+---
+         
+  b              b     
+        1                  
+    1               1
+          4             1 4
+
+c   c   C   c   O     C     C                           
+2   B 2     B 2 B 2 B 2    
+                           bB
+ 
+                        B
+y m m y m m m  m m  y y m m y m
+
+                           
+W                    
+                    b E b   E
+           
+                    Q     Q   
+
+                  W
+
+      W E     W R
++END
+
+SOLOWKA START
+
+r: ins=56, type=percussion, velo={100-127}, duration=1.2
+N: type=melo, chan=4, instr=32, velo={75-110}, dura=1.7
+
++---+---+---+---+---+---+---+---
+F_         
+                       
+                           
+                    1
+                          4
+ 
+c       C   c               C                           
+2   B 2             B 2    
+                           bB
+ 
+                         
+ymmymymmymyymmmmyyyymmmymymmmyym
+
+                           
+W                    
+                        b   E
+           
+                    Q     Q   
+
+                     
+
+      W E         
++END
+
++---+---+---+---+---+---+---+---
+              1 1
+                 1     
+             1          1  
+1          1      1 1     1
+ 1      1          1 1    1
+                            1
+c 1     1   c         1     C1                          
+2  11 1             B 2    
+     1                     bB
+                      1
+                         
+y y y y y y y m m m m m m m m m 
+
+                           
+W                    
+                        b   E
+           
+                    Q     Q   
+
+D   D   D   D   D   D   D   D
+
+      W E         
++END
+
++---+---+---+---+---+---+---+---
+4        2    1 1
+  b2       b2     b1
+F   1         1          1  
+1          1      1 1     1
+
+    b 2                   b 1
+c 1     1   C         1     C1                          
+2  11 1             B 2    
+     1                     bB
+M                     1
+Y                        
+y y y y y y y m m m m m m m m m 
+D   D   D   D   D   D   D   D
+                  
++END
+
++---+---+---+---+---+---+---+---
+              1           111 1
+               
+             1
+1          1            1
+ 1      1             2
+            
+c 1     1           1 
+2  11 1     
+     1            b1
+                  1 
+               b1        
+y y y y y y y m m m m m m m m m 
+
+                           
+W                    
+                        b   E
+           
+                    Q     Q   
+
+D   D   D   D   D   D   D   D
+
+      W E         
++END
+
+pitch=55
+
++---+---+---+---+---+---+---+---
+     1            1b1    b1      
+   1   1                b1
+        b1             b1
+ 2
+1 1 1 1 1 1     1              
+  b2       b2     b1
+                         1
+
+                          1
+                        b1
+c           C               C1                          
+                           1
+                         b1
+M                             1
+Y                          1 1
+y y y y y y y m m m m m m m m1m 
+D   D   D   D   D   D   D b1Db1
+                             1
++END
+
+pitch=48
+
++---+---+---+---+---+---+---+---
+F                     4      
+ b 4b4 b3         4   4     
+ b                   b   1 
+   2 b           1     4  #1 
+                            #1
+b 2 b4 b4  b b  1          b1 
+N                         1  #N
+2 N      1  C  1       4C
+        1              bN  bN#1
+    N         1               1
+     bN  bN  1        N   N   2
+ymymmymmymmmmmyyyymmymmmyyymmym 
+       bN          bN
+            N     
+             #N N N
+D   D   D   D   D   D   D   D
++END
+
+pitch = 84
+
+SCISZYMY 1 do 4 !
+
+4: ins=16, chan=1, type=organ, velo={90-110}, duration=4
+3: ins=16, chan=1, type=organ, velo={80-95}, duration=3
+2: ins=16, chan=1, type=organ, velo={70-85}, duration=2
+1: ins=16, chan=1, type=organ, velo={70-80}, duration=0.95
+
++---+---+---+---+---+---+---+---
+         1              
+               1          
+         b 1               
+         b1                  
+           b 1   1             
+           b1                 
+              1            
+                1  1       
+                             # 
+                  1  1         
+        3          b1b1       2
+y y m m y m1   yyymmym m1yym y  
+           b1         b1
+             1          1 1
+                        b1   b1
+
+                            1
+            C               C
+                 
+    4  bN
+    N       N     
+N N   N   N   N N     N N N   N
+                  N         N
+
+                    N         
+
+
+D   D   D   D   D   D   D   D
++END
+
++---+---+---+---+---+---+---+---
+                           1
+                          
+                            1
+                          2  1
+                        #1   #1
+             b1              b1
+                                
+                1   1         4
+    b1    b1b1                 
+                               
+    1 13 1 1C               C                      
+ymmymymmymmymm y m  y y y y y y 
+  b1  b1b1 b1              
+                              
+N      N N N    N      N N N
+    N       N       N       N
+
+      N       N       N       N
+D   D   D   D   D   D   D   D
++END
+
++---+---+---+---+---+---+---+---
+     
+                          
+     
+      
+       
+        
+                                
+4   4    2      1 1   12 1 4  
+           1       2       2     
+                            2  
+            2       1             
+ymmymymmymmymm y m  y y y y y y 
+            C               C
+                              
+N      N N N    N      N N N
+    N       N       N       N
+
+      N       N       N       N
+D   D   D   D   D   D   D   D
++END
+
++---+---+---+---+---+---+---+---
+4    
+                          
+     
+      
+                            1
+        
+                                
+3  3      2     1     1 2 1    
+           1       2       2     
+                             2  
+             2       1            
+ymmymymmymmymm y m  y y y y y y 
+            C               C
+                              
+N     N N N     N     N N N
+   N       N       N       N
+
+     N       N       N       N
+D   D   D   D   D   D   D   D
++END
+
++---+---+---+---+---+---+---+---
+4    
+                          
+    C       C       C       C
+      
+       
+        
+                 1              
+1  1      1  1     1 1 1   
+     2     1  2  b1    b2  
+      1        1    1 1  1 
+        4       4    1    4
+ymmymymmymmymm y m  y y1y y y y 
+                       b1 b1
+                             1
+N     N N N     N     N N N 1
+   N       N       N    b1 N
+                           1
+     N       N       N  1 1  N
+              
+                            b1
+                
+                              4
+D   D   D   D   D   D   D   D
++END
+
+pitch=48
++---+---+---+---+---+---+---+---
+
+
+
+N               N
+  N               N   N
+              N     N   N N  N
+    N                    N  N N
+            N
+      N
+       N   N
+        N
+          N
+         N
+
+    S       S       S        
+ymmymymymmmyymmym m y y m m y
+D   D   D   /   D       D   / 
++END
+
++---+---+---+---+---+---+---+---
+    N
+
+
+N                
+  N                   N
+                    N   N N  N
+                  N      N  N N
+     NNNN N N N N
+
+    S       /       S       /
+y m m m m m y m m m y y m m y m 
+D   D   D   D   D       D    
++END
+SOLOWKA CUT 
+
+
+pitch=50    /*  D  */
++---+---+---+---+---+---+---+---
+4                           1  1
+4                           N 1
+   b4  b2                   b1
+          1         N       1 
+      N     2     N   N    1 
+    N   N  1    N       2
+ bN      bN  bN        bN 1
+ymymmymmymmmmmyyyymmymmmyyymmym 
+N           N  4         1N
+               # 4      1  bN
+            /               /
+                       1     bN
++END
+
++---+---+---+---+---+---+---+---
+F                     4
+ b 4b4 b3         4   4
+                         1
+   2             1     4  #1 
+     4  4                   #1
+b 2 b4 b4    b  1    N     b1 
+                          1
+2 N N N N1N N N1N NN    4    N 
+        1        N     #N N N#N
+              1       N       1
+             1                2
+ymymmymmymmmmmyyyymmymmmyyymmym 
+                  
++END
+
+pitch=50
++---+---+---+---+---+---+---+---
+4                           1  1
+4                             1
+   b4  b2                    1
+          1                 1 
+            2              1 
+           1            2
+                          1
+ymymmymmymmmmmyyyymmymmmyyymmym 
+N N N NN NN N N4N NNN N N1N NNN
+               # 4      1
+                        
+                       1
++END
+
+pitch=64
++---+---+---+---+---+---+---+---
+
+
+            4    4             1
+              4     # 4       1
+                      
+   4                  4      1
+  1   b1                    1
+       b4                  1
+ 1                    4    
+          2               1
+1                     4  1
+                       1
+                      4    1
+yymmyymmmymyymmmymymmmymymymymm 
++END
+
+pitch=64
++---+---+---+---+---+---+---+---
+           4  
+4         1     4 N       #2  #N
+         1  4          #2#N  2 
+4       1       N             b2 
+      b1    4   #2      bN 
+4     1                 N
+     1     b4bN        N
+4   1             3   N
+   1        N4       N
+4        N        # 2
+yymmyymmmymyymmmymymmmymymymymmy 
++END
+
+pitch=64
++---+---+---+---+---+---+---+---
+3     b 4      bN   N  1
+                      2   1
+3  4  b 4    bN  bN  2N 1    1
+           b2       2   Nb 1
+3     b 4  bN            1    1
+   3N      b2      2      N 1
+3bN   b 4                      1 
+N          b2     2         N
+y  myymmm    mmmymymmmymymymymmy 
+
+                2
+               2
++
+END
+
++---+---+---+---+---+---+---+---
+      b 4              1
+                      2   1
+                     2  1    1
+b1         b2       2    b 1
+   1                     1    1
+ 1   1    
+    1   1                      1 
+ b1  b1    
+y        1   mmmymymmmymymymymmy 
+       1    1
+         b1    
+             1
++END
+
+pitch=76
++---+---+---+---+---+---+---+---
+1                             4
+    1
+ 1     1                     1  
+   b 1                  b1     
+  1         1               1
+      1  1              1     
+   1   1     1             1 
+         b1    b1     b1    
+98765   1     1       4   1
+           1     1    1     
+              b1    b1     
+            1     1 1   
+                   1            
+yymmyymmmymyymmmymymmmymymymymm 
++END
+
++---+---+---+---+---+---+---+---
+            4            1
+    4             3       1
+           1        1
+   1            # 4  1 #1
+          1           1    1
+  1             # 4
+         1                  1
+ 1              # 4    1    #1
+        1                    b1
+yymmyymmmymyymmmymymmmymymymymm 
++END
+
++---+---+---+---+---+---+---+---
+            4            1
+    4             3       1
+           1        1
+   1    56789   # 4  1 #1
+          1           1    1
+  1             # 4
+         1                  1
+ 1              # 4    1    #1
+        1                    b1
+yymmyymmmymyymmmymymmmymymymymm 
++END
+
++---+---+---+---+---+---+---+---
+            41      # 1 
+    4         1        1
+           1   1      # 1
+   1            1        1
+          1      1      # 1
+  1               1        1 
+         1         1      # 1
+ 1                  1        1 
+        1            1      # 1
+yymmyymmmymyymmmymymmmymymymymm 
++END
+
++---+---+---+---+---+---+---+---
+11     1    41      # 1 
+  1 4   1   b 1        1
+1 b1     1 b
+   11   b 1     1      b 1
+   b 1   b11     1      # 1
+2 1   1   b 1     1      b 1 
+    b  1 1   1   b 1      # 1
+ 1      1  b  1     1      b 1 
+     b   1    1   b  1      # 1
+yymmyymmmymyymmmymymmmymymymymm 
++END
+
++---+---+---+---+---+---+---+---
+b1            1 99988777665
+  1            1           
+   1            1 
+ b  1      b4    4             
+     1            1            
+      1            1             
+       1            1             
+     b  1     b  4   4             
+         1            1
+          1            1
+         b 1       b4   1
+            1            1 
+             1       b    1
+yymmyymmmymyymmmymymmmymymymymm 
++END
+
+pitch = 48
++---+---+---+---+---+---+---+---
+         
+  b 1            b  1  
+        1 4             1 4
+    1               1
+        1 4             1 4
+
+
+2 B B 2 B B B 2 B 2 B 2 
+                      b B   B
+
+
+
+
+                           
+W                                 
+                    b E b   E
+           
+                    Q     Q   
+
+
+
+      W E     W R
++END
+
++---+---+---+---+---+---+---+---
+         
+  b 1            b  1  
+        1 4             1 4
+    1               1
+        1 4             1 4
+
+
+2     2       2   2   2         
+                              
+        # B
+       # B               
+      # B
+     # B
+    # B                    
+R                    
+                    b E b   E
+           
+     B          B   Q     Q   
+
+
+
+    B W E     W R
++END
+
++---+---+---+---+---+---+---+---
+F        
+  b 1            b  1  
+        1 4             1 4
+    1               1
+        1 4             1 4
+
+
+2     2       2   2   2         
+S   S   S   S   S   S   S   S 
+D       D D     D     D     D  D
+                         
+            
+            
+                           
+R                    
+                    b E b   E
+           
+     B          B   Q     Q   
+
+
+
+    B W E     W R
++END
+
+
+pitch=48
+T: ins=tempo, velo=570
+F: ins=tempo, velo=590
+
+4: ins=16, chan=1, type=organ, velo=111, duration=4
+3: ins=16, chan=1, type=organ, velo=112, duration=3
+2: ins=16, chan=1, type=organ, velo=111, duration=2
+1: ins=16, chan=1, type=organ, velo=112, duration=0.95
+h: ins=16, chan=1, type=organ, velo=111, duration=0.6, start+=0.5
+
+R: ins=4, chan=5, type=gui, velo=60, duration=8
+E: ins=4, chan=5, type=gui, velo=80, duration=3
+W: ins=4, chan=5, type=gui, velo=60, duration=2
+Q: ins=4, chan=5, type=gui, velo=60, duration=1
+
+y: type=percussion, instr=51,  velo={50-100}, durat={0.1-0.4}
+m: type=percussion, instr=59,  velo={50-100}, durat={0.1-0.4}
+
+S: instr=38, type=percussion, velo={20-100}
+D: instr=35,  velo={60-100}
+
+Closed Hit Hat
+C: instr=42,  velo={70-90}
+
+O: instr=46,  velo={70-90}
+
+BASS
+B: type=melo, chan=3, instr=33, velo={90-120}, dur={1.6-3}
+N: type=melo, chan=4, instr=37, velo={40-60}, dur={0.1-0.5}
+
+pitch = 48 
+
++---+---+---+---+---+---+---+---
+F        
+  b 1            b  1  
+          4             1 4
+                     
+                          4
+                                
+
+2     2       2   2   2         
+S   S   S S S S S S S S S S S S
+D D D D D D     D     D     D  D
+O           /   C       C   / C 
+       S       S
+       S       S
+       S       S           
+R      S       S     
+
++END
+
+BUM-BUM-BUM
+
+S: instr=38, type=percussion, velo={20-127}, start+=0
+R: ins=4, chan=5, type=gui, velo=95, duration=4
+
++---+---+---+---+---+---+---+---
+F           /               /
+  b 1            b  1  
+          4             1 4
+                     
+                          4
+
+
+2     2       2   2   2         
+    S       S       S       S
+D   D   D   D   D   D   D   D
+C     C C C O   C     C O  CC C 
+       SSSSSS   
+
++END
+
+
+S: instr=38, type=percussion, velo={70-100}, start+=0
++---+---+---+---+---+---+---+---
+F           /       /       /
+  b 1            b  1  
+          4             1 4
+                     
+                          4
+
+
+2     2       2   2   2         
+    S       S       S       S
+D   D   D   D   D   D   D   D
+C C /       C C         C C C C 
+
+R       R       R
+
+R       R       R
++END
+
++---+---+---+---+---+---+---+---
+F        
+  b 1            b  1  
+          4             1 4
+                     
+                          4
+
+
+2     2       2   2   2         
+    S       S       S       S
+D   D   D   D   D   D   D   D
+C C C C C C C C C C C C C C C C 
+    /       /       /
+R       R       R       R
+
+R       R       R       R
++END
+
++---+---+---+---+---+---+---+---
+F        
+  b 1            b  1  
+          4             1 4
+                     
+                        R 4
+                R       R
+        R       R       R  
+2     2       2   2   2         
+    S       S       S       S
+D   D   D   D   D   D   D   D
+C C C C C C C C C C C C C C C C 
+    /       /       /       /
+R       R       R       R
+
+R       R       R       R
++END
+
++---+---+---+---+---+---+---+---
+         Q              R
+  b 1   Q Q      b  1   R
+ R     W  4W    R       1 4
+  R   Q     Q     Q     Q
+   W W       Q  R   Q   R 4
+    R         R W     Q Q
+        R       Q       R  
+2     2       2   2   2         
+    S       S       S       S
+D   D   D   D   D   D   D   D
+C C C C C C C C C C C C C C C C 
+
+R       R       R       R
+
+R       R       R       R
++END
+
+PLUM-PLUM-start
+
+S: instr=38, type=percussion, velo={20-127}, start+=0
+R: ins=4, chan=5, type=gui, velo=95, duration=4
+
+
+pitch = 72
+W: ins=4, chan=5, type=gui, velo=50, duration={1.7-1.9}
+Q: ins=4, chan=5, type=gui, velo={60-100}, duration={0.8-0.9}
+
+N: type=melo, chan=4, instr=32, velo={90-127}, dura=2.2
+
++---+---+---+---+---+---+---+---
+F                      Q 
+                            
+                        Q    
+                               
+                         Q      
+                 bQ      
+            Q             Q
+QQWQQWWQWQQWWQWQWQWQWWQWQWQWQWQ 
+    S       SbQ     S       S
+D   D Q D   D  QD   D   D   D
+C C C CQC C C C C C C C C C C C 
+Q   Q   Q       Q   Q
+bQ      bQ           bQ  bQ
+  Q  Q    Q      Q          Q
+   Q       Q                   Q
++END
+
+pitch=48
+
++---+---+---+---+---+---+---+---
+         Q              Q
+  b 1   Q Q      b  1   Q
+ Q     W        Q           
+  Q   Q     Q     Q     Q
+   W W       Q  Q   Q   Q  
+    Q         Q W     Q     M
+        Q       Q       Q  
+2     2       2   2 Y 2     Y
+    S       S SS S SM SSSSS
+D   D   D   D   D   D   D   D
+C C CC  CCC CCC C C C C C C C C 
+           56789 56    789  5
+9 8 7 98765    98    765959 6
+         567895869    8576  7
+                            9
++END
+
+pitch=72
+
+S: instr=38, type=percussion, velo={60-127}, duration={0.1-0.6}
+
++---+---+---+---+---+---+---+---
+F                      Q 
+                            
+                        Q    
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS     
+r r r rr r rr r r r rr r Q      
+                 bQ     rr rr
+            Q             Q
+QQWQQWWQWQQWWQWQWQWQWWQWQWQWQWQ 
+    S       SbQ     S       S
+D   D Q D   D  QD   D   D   D
+C C C CQC C C C C C C C C C C C 
+Q   Q   Q       Q   Q
+bQ      bQ           bQ  bQ
+  Q  Q    Q      Q          Q
+   Q       Q                   Q
++END
+
+pitch=48
+
++---+---+---+---+---+---+---+---
+Y        Q              Q
+M b 1   Q Q      b  1   Q
+mQ     W        Q           
+  Q   Q     Q     Q     Q
+S  W W       Q  Q   Q   Q  
+    Q         Q W     Q     M
+        Q       Q       Q  
+2     2       2   2 Y 2     Y
+    S       S SS S SM SSSSS
+D   D   D   D   D   D   D   D
+C C CC  CCC CCC C C C C C C C C 
+           56789 56    789  5
+9 8 7 98765    98    765959 6
+         567895869    8576  7
+                            9
++END
+
+
+
+pitch = 72
+
++---+---+---+---+---+---+---+---
+                       Q 
+                            
+                        Q    
+                               
+                         Q      
+                 bQ      
+            Q             Q
+QQWQQWWQWQQWWQWQWQWQWWQWQWQWQWQ 
+    S       SbQ     S       S
+D   D Q D   D  QD   D   D   D
+CC CC C CC CC C CC CC C CC CC C 
+Q   Q   Q       Q   Q
+bQ      bQ           bQ  bQ
+  Q  Q    Q      Q          Q
+   Q       Q                   Q
++END
+
+pitch=84
+
++---+---+---+---+---+---+---+---
+                  2   
+                            
+                   1    
+                           
+                      1
+                   b2 b1  
+           
+                        1
+          b1         
+                         2
+                    b1     1
+       1                 b1 b1 1
+                            1b1
+                      1
+                       1
+        b 1            b1 
+      1                  1
+                          1  
+R               R          1
+   b 1                     b1
+       1                     1 
+    1                         1 
+  b1                          b1
+R                                           
+  1                   998877665
+R               R
+b1
+                    
+1                               
+R   S       S   R   S       S
+D   D   D   D   D   D   D   D
+C C C C C C C C C C C C C C C C 
++END
+
+pitch=48
+
++---+---+---+---+---+---+---+---
+F        
+  b 1            b  1  
+          4             1 4
+                     
+                          4
+
+
+2     2       2   2   2         
+    S       S       S       S
+D   D   D   D   D   D   D   D
+C C C C C C C C C C C C C C C C 
+
+R       R       R
+
+R       R       R
++END
+
+pitch=84
+
++---+---+---+---+---+---+---+---
+                  2   
+                            
+                   1    
+                           
+                      1
+                   b2 b1  
+           
+                        1
+          b1         
+                         2
+                    b1     1
+       1                 b1 b1 1
+                            1b1
+                      1
+                       1
+        b 1            b1 
+      1                  1
+                          1  
+R               R          1
+   b 1                     b1
+       1                     1 
+    1                         1 
+  b1                          b1
+R                                           
+  1                  
+R 556677  8     R     98765
+b1
+                    
+1                               
+R   S       S   R   S       S
+D   D   D   D   D   D   D   D
+C C C C C C C C C C C C C C C C 
++END
+
++---+---+---+---+---+---+---+---
+  2               1   
+                            
+   1                    
+                   1       
+      1              
+   b2 b1            
+                   1
+        1             
+                    1
+         2            
+    b1     1         1 
+         b1 b1 1      1 
+            1b1        
+      1           
+       1              1
+       b1         
+         2        
+          1            1
+R          4      
+           b1     
+             1    
+              2         1
+              b4  
+R                                           
+  1                          1
+R               R        1  1
+b1                        1   1
+                            1
+1                          1    
+R   S       S   R   S       S
+D   D   D   D   D   D   D   D
+C C C C C C C C C C C C C C1C C 
++END
+
+pitch=84
+
+S: instr=38, type=percussion, velo={80-90}, start+=0
+
+k: instr=38, type=percussion, velo={70-99},  start+=0.5
+K: instr=38, type=percussion, velo={60-90},  start+=0.9
+j: instr=38, type=percussion, velo={50-85},  start+=0.1
+J: instr=38, type=percussion, velo={40-70},  start+=0.5
+H: instr=38, type=percussion, velo={30-60},  start+=0.9
++---+---+---+---+---+---+---+---
+               4  4 4  4 4 4 4
+             b1   b2
+             1       2
+                     b 2
+
+           b1         b 2
+           
+
+          b1            b 2
+
+          1
+       1
+        b1
+        1
+      
+        b 1
+      1
+
+R               R
+   b 1
+       1
+    1    
+  b1                      
+R               R                           
+  1                  
+R   1           R
+b1
+                    
+1                               
+R   S       S   R   S       S
+D   D   D   D   D   D   D   D
+C C C C C C C C C C C C C C C C 
++END
+
++---+---+---+---+---+---+---+---
+  4 4  4 4      4  4 4  4 4 4 4
+  b2          b1   b2
+     2        1       2
+     b 2              b 2
+           
+      b 2   b1         b 2
+            
+           
+        b 2b1            b 2
+
+          1
+   1
+    b1
+    1
+  
+    b 1
+  1
+
+  
+  
+   1
+     
+  b1                      
+                              
+  1                  
+    1
+b1
+                    
+1                               
+    S       S       S       S
+D   D   D   D   D   D   D   D
+C C C C C C C C C C C C C C C C 
++END
+
+KONIEC BU-BU-solówki
+
+F: ins=tempo, velo=600
+
++---+---+---+---+---+---+---+---
+F              4  4 4  4 4 4 4
+             b1   b2
+             1       2
+                     b 2
+
+           b1         b 2
+           
+
+          b1            b 2
+
+          1
+       1
+        b1
+        1
+      
+        b 1
+      1
+
+     
+   b 1
+       1
+    1    
+  b1                      
+                              
+  1                  
+    1
+b1
+                    
+1                               
+    S       S       S       S
+D   D   D   D   D   D   D   D
+C C C C C C C C C C C C C C C C 
++END
+
+F: ins=tempo, velo=610
+
++---+---+---+---+---+---+---+---
+F 4 4  4 4      4  4 4  4 4 4 4
+  b2          b1   b2
+     2        1       2
+     b 2              b 2
+           
+      b 2   b1         b 2
+            
+           
+        b 2b1            b 2
+
+          1
+   1
+    b1
+    1
+  
+    b 1
+  1
+
+R  R
+  
+   1
+R  R 
+R b1                      
+                              
+R 1                  
+    1
+b1
+R  R                
+1                               
+    S       S       S       S
+D   D   D   D   D   D   D   D
+C C C C C C C C C C C C C C C C 
++END
+
+F: ins=tempo, velo=625
+
++---+---+---+---+---+---+---+---
+  4 4  4 4      4  4 4  4 4 4 4
+  b2          b1   b2
+     2        1       2
+F    b 2         Q    b 2
+                  Q
+      b 2   b1     Q   b 2
+                    Q
+                     Q
+        b 2b1         Q  b 2
+
+          1            Q
+   1
+    b1                  Q
+    1
+                         Q
+R R b 1                       Q     
+  1                          Q
+  9988776655
+                          Q
+                           Q
+   1
+R R                         Q
+  b1                      
+                              
+  1          H               H
+R R 1        J               J
+b1           j               j
+            K               K
+1           k               k   
+R R S       S       S       S
+D   D   D   D   D   D   D   D
+C C C C C C C C C C C C C C C C 
++END
+
+Q: ins=4, chan=5, type=gui, velo=90, duration=0.99
+
++---+---+---+---+---+---+---+---
+  4 4  4 4      4  4 4  4 4 4 4
+  b2          b1   b2
+     2        1       2
+F    b 2        bQ    b 2
+                  Q
+      b 2   b1    bQ   b 2
+                Q   Q
+                 Q  bQ
+        b 2b1        bQ  b 2
+                  bQ
+          1        bQ  Q
+   1                bQ
+    b1                  Q
+    1                 Q
+                         Q
+R R b 1               bQ      Q     
+  1                          Q
+                        Q
+                         bQ
+                          bQ
+   1
+R R                         Q
+  b1                      
+                              
+  1                        bQ
+R R 1                        bQ
+b1                  
+                     
+1                                
+R R S       S       S       S
+D998D887D776D   D   D   D   D
+C C C C C C C C C C C C C C C C 
++END
+
++---+---+---+---+---+---+---+---
+  4 4  4 4      4  4 4  4 4 4 4
+  b2          b1   b2
+     2        1       2
+F    b 2        bQ    b 2
+                  Q
+      b 2   b1    bQ   b 2
+                Q   Q
+                 Q  bQ
+        b 2b1        bQ  b 2
+                  bQ
+          1        bQ  Q
+   1                bQ
+    b1                  Q
+    1                 Q
+                         Q
+R R b 1               bQ      Q     
+  1                          Q
+                        Q
+                         bQ
+                          bQ
+   1
+R R                         Q
+  b1                      
+                              
+  1                        bQ
+R R 1                         bQ
+b1
+                    
+1                               
+M R S      MS      YS      YS
+D   D   D   D   D   D   D   D
+Y M M M M Y M M M M M M M M M
++END
+
+F: ins=tempo, velo=640
+Q: ins=4, chan=5, type=gui, velo=105, duration=1.2
+
++---+---+---+---+---+---+---+---
+  4 4  4 4      4  4 4  4 4 4 4
+  b2          b1   b2
+     2        1       2
+F    b 2        bQ    b 2
+                  Q
+      b 2   b1    bQ   b 2
+                Q   Q
+                 Q  bQ
+        b 2b1        bQ  b 2
+                  bQ
+          1        bQ  Q
+   1                bQ
+    b1                  Q
+    1                 Q
+                         Q
+R R b 1               bQ      Q     
+  1                          Q
+                        Q
+                         bQ
+                          bQ
+   1
+R R                         Q
+  b1                      
+                              
+  1                        bQ
+R R 1                         bQ
+b1
+                    
+1                               
+M R S      MS      YS      YS
+D   D   D   D   D   D   D   D
+Y M M M M Y M M M M M M M M M
++END
+
+pitch=48
+
++---+---+---+---+---+---+---+---
+         
+  b 1            b  1  
+T       1 4             1 4
+    1               1
+        1 4             1 4
+
+
+2     2   #   2 # 2 # 2
+
+
+                                 
+ 
+ 
+                           
+                     
+                    b R b   E
+                   
+                    Q     Q   
++END
+
++---+---+---+---+---+---+---+---
+         
+  b 1            b  1  
+        1 4             1 4
+    1               1
+        1 4             1 4
+
+
+2     2   B B 2 B 2   2 B B B B
+  b B                   
+   
+B                  
+
+
+                           
+R                    
+                    b E b   E
+           
+                    Q     Q   
+
+
+
+      W E     W R
++END
+
++---+---+---+---+---+---+---+---
+         
+  b 1            b  1  
+        1 4             1 4
+    1               1
+        1 4             1 4
+
+
+2     2   B B 2 B 2 B 2         
+                         b  B  
+                            
+                        B 
+                        
+
+                           
+R          B         
+                    b E b   E
+           
+                    Q     Q   
+
+                  W
+
+      W E     W R
++END
+
++---+---+---+---+---+---+---+---
+         
+  b 1            b  1  
+        1 4             1 4
+    1               1
+        1 4             1 4
+
+       f
+2 B B 2 B B B 2 B 2 B 2    
+                           bB
+
+                        B
+
+
+                           
+W                    
+                    b E b   E
+           
+                    Q     Q   
+
+                  W
+
+      W E     W R
++END
+
++---+---+---+---+---+---+---+---
+         
+  b 1            b  1  
+        1 4             1 4
+    1               1
+        1 4             1 4
+
+       f
+2 B B 2 B B B 2 B 2 B 2    
+                           bB
+
+                        B
+
+
+                           
+W                    
+                    b E b   E
+           
+                    Q     Q   
+
+                  W
+
+      W E     W R
++END
+
++---+---+---+---+---+---+---+---
+f        
+  b 1            b  1  
+        1 4             1 4
+    1               1
+        1 4             1 4
+
+       f
+2 B B 2 B B B 2 B 2 B 2    
+                           bB
+
+                        B
+
+
+                           
+W                    
+                    b E b   E
+           
+                    Q     Q   
+
+                  W
+
+      W E     W R
++END
+
++---+---+---+---+---+---+---+---
+T        
+  b 1            b  1  
+        1 4             1 4
+    1               1
+        1 4             1 4
+
+       f
+2 B B 2 B B B 2 B 2 B 2    
+                           bB
+
+                        B
+
+
+                           
+W                    
+                    b E b   E
+           
+                    Q     Q   
+
+                  W
+
+      W E     W R
++END
+
++---+---+---+---+---+---+---+---
+T        
+  b 1            b  1  
+        1 4             1 4
+    1               1
+        1 4             1 4
+
+       f
+2 B B 2 B B B 2 B 2 B 2    
+                           bB
+
+                        B
+
+
+                           
+W                    
+                    b E b   E
+           
+                    Q     Q   
+
+                  W
+
+      W E     W R
++END
+
++---+---+---+---+---+---+---+---
+T        
+  b 1            b  1  
+        1 4             1 4
+    1               1
+        1 4             1 4
+
+       f
+2 B B 2 B B B 2 B 2 B 2    
+                           bB
+
+                        B
+
+
+                           
+W                    
+                    b E b   E
+           
+                    Q     Q   
+
+                  W
+
+      W E     W R
++END
+
++---+---+---+---+---+---+---+---
+u        
+  b 1            b  1  
+        1 4             1 4
+    1               1
+        1 4             1 4
+
+        
+2   B 2 B   B 2 B 2 B 2    
+                           bB
+
+                        B
+
+
+                           
+W                    
+                    b E b   E
+           
+                          Q   
+
+                  W
+
+      W E     W  
++END
+
++---+---+---+---+---+---+---+---
+         
+  b 1            b  1  
+        1 4             1 4
+                    1
+        1               1 4
+
+        
+2 B B 2 B B B   B 2 B 2    
+                           bB
+
+                        B
+
+
+                           
+W                    
+                    b E b   E
+           
+                    Q     Q   
+
+                  W
+
+              W R
++END

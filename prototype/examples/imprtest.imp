@@ -1,0 +1,31 @@
+  o: instr=1,  velo=40,  type=1, channel=1, duration+={2-4}
+  h: instr=19,  velo=127,  type=1, channel=2
+  H: instr=19,  velo=0,    type=1, channel=2
+
+  D: instr=35,  velo=127
+  S: instr=38,  velo=120+{0-7}
+  C: instr=42,  velo=120+{0-7}
+  O: instr=46,  velo=120+{0-7}
+
+  d: instr=35,  velo=61+{0-20}
+  s: instr=38,  velo=60+{0-20}
+  c: instr=42,  velo=110+{0-7}
+  o: instr=46,  velo=100+{0-17},  start += {-0.2 - 0}
+ 
+  T: instr=tempo,  velo=800
+ 
+pitch = 84
+
++---+---+---
+T
+c C c O c
+D   D   D
++END
+
++---+---+---
+   P    o
+    o
+o P
+   o  o P
+D   D   D
++END
